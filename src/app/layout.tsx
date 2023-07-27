@@ -8,6 +8,8 @@ export const metadata = {
   description: '',
 }
 
+
+
 export default function RootLayout({
   children,
 }: {
@@ -20,10 +22,14 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" />
       </head>
       <body className={inter.className} >
-        <main className="bg-light w-full min-h-screen text-zinc-700">
+        <div className='background_main bg-light'>
+          <div className='background_content'></div>
+        </div>
+        <main className="w-full min-h-screen text-zinc-700">
           <NavBar></NavBar>
           {children}
         </main>
+        
       </body>
     </html>
   )
