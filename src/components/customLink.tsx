@@ -8,12 +8,13 @@ interface IcustomLink {
     href: string,
     title: string,
     className?: string;
+    target?: string;
 };
 
-export default function CustomLink({ title, href, className = "" }: IcustomLink) {
+export default function CustomLink({ title, href, target="_self", className = "" }: IcustomLink) {
     const router = usePathname();
     return (
-        <Link href={href} className={`${className} relative group`}>
+        <Link href={href} className={`${className} relative group`} target={`${target}`}>
             {title}
             <span
                 className={`
