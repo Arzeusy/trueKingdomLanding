@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div className="flex  text-dark w-full min-h-full h-full  ">
       <div className='pt-0'>
-        <div className='flex items-center justify-center w-full'>
+        <div className='flex items-center justify-center w-full '>
           <div className='w-3/5 flex flex-col items-center self-center'>
               <AnimatedText 
                 text="Discover innovative learning with cultural immersion and flexible access" 
