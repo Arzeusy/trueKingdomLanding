@@ -8,7 +8,7 @@ const Projects = () => {
             </h1>
             <button disabled={true}>hello</button>
             <p data-testid="paragraph-blue" className="blue">
-                this is a 
+                this is a paragraph
             </p>
         </div>
     )
