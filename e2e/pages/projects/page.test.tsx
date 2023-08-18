@@ -2,6 +2,7 @@ import React from "react";
 import { render, screen } from "@testing-library/react";
 import "@testing-library/jest-dom";
 import Projects from "@/app/projects/page";
+import 'intersection-observer';
 
 
 describe("My information page", ()=>{
