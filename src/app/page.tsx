@@ -4,10 +4,12 @@ import React from 'react'
 import appPic from "../../public/images/Wood-Hand.svg"
 import AnimatedText from '@/components/AnimatedText'
 import Link from 'next/link'
+import Footer from "../components/footer"
 
 
 export default function Home() {
   return (
+    <>
     <div className="flex  text-dark w-full min-h-full h-full  ">
       <div className='pt-0'>
         <div className='flex items-center justify-center w-full '>
@@ -37,5 +39,8 @@ export default function Home() {
       </div>
     
     </div>
+    <Footer/>
+
+    </>
   )
 }
