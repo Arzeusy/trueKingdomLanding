@@ -33,7 +33,7 @@ export default function Home() {
               </div>
           </div>
           <div className='w-2/5'>
-            <Image src={appPic} alt='codeBucks' className='w-2/3 mx-auto' />
+            <Image src={appPic} alt='Alejandria-app' className='w-2/3 mx-auto' priority={true}/>
           </div>
         </div>
       </div>

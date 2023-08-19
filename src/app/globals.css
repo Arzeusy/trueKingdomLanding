@@ -22,9 +22,24 @@ body {
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  ) rgb(var(--background-start-rgb));
+
+  scrollbar-color: #848484 #e8e8e8 !important;
+  scrollbar-width: thin !important;
 }
+ 
+body::-webkit-scrollbar {
+  width: 7px !important;
+}
+
+body::-webkit-scrollbar-track {
+  background: #e8e8e8;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #848484;
+  border-radius: 20px;
+} 
 
 .background_main {
   width: 100vw; 

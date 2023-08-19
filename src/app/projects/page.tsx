@@ -3,6 +3,8 @@ import AnimatedText from "@/components/AnimatedText";
 import AnimatedNumbers from "@/components/AnimatedNumbers"; 
 import Image from 'next/image'
 import ProfilePic from '../../../public/images/profile/me.jpeg';
+import Skills from "@/components/skills"; 
+import ExperienceTree from "@/components/ExperienceTree";
 
 
 
@@ -57,10 +59,15 @@ const Projects = () => {
                                 Years or experience
                             </h2>
                         </div>
-
-
                     </div>
                 </div>
+
+                <Skills />
+
+            </div>
+            <div>
+                <ExperienceTree/>
+
             </div>
         </>
     )
