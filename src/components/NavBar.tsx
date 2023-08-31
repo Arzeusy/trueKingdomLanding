@@ -11,8 +11,8 @@ const NavBar = () => {
         <header className=" bg-light w-full px-32 py-8 font-medium flex items-center justify-between">
             <nav>
                 <CustomLink href="/" title="Alejandria" className="mr-4" />
-                <CustomLink href="/projects" title="Arzeusy" className="mr-4" />
-                {/* <CustomLink href="/Articles" title="Articles" className="mr-4" /> */}
+                <CustomLink href="/me" title="Arzeusy" className="mr-4" />
+                <CustomLink href="/projects" title="Projects" className="mr-4" />
             </nav>
             <Logo></Logo>
             <nav className="flex items-center justify-center flex-wrap ">
