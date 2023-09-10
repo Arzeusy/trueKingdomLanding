@@ -8,7 +8,9 @@ import { motion } from "framer-motion"
 const NavBar = () => {
 
     return (
-        <header className=" bg-light w-full px-32 py-8 font-medium flex items-center justify-between">
+        <header className=" bg-light dark:bg-black/40 w-full px-32 py-8 font-medium flex items-center justify-between 
+             dark:text-light
+        ">
             <nav>
                 <CustomLink href="/" title="Alejandria" className="mr-4" />
                 <CustomLink href="/me" title="Arzeusy" className="mr-4" />

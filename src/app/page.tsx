@@ -10,13 +10,13 @@ import Footer from "../components/footer"
 export default function Home() {
   return (
     <>
-    <div className="flex  text-dark w-full min-h-full h-full  ">
+    <div className="flex  text-dark w-full min-h-full h-full dark:text-light ">
       <div className='pt-0'>
         <div className='flex items-center justify-center w-full '>
           <div className='w-3/5 flex flex-col items-center self-center'>
               <AnimatedText 
                 text="Discover innovative learning with cultural immersion and flexible access" 
-                className='!text-5xl !text-right'  
+                className='!text-5xl !text-right dark:text-light'  
               />
               <br />
               <br />
@@ -26,9 +26,10 @@ export default function Home() {
                 </p>
               </div>
               <div className='flex self-end items-center justify-end mt-2 w-full'>
-                <Link className='mr-4 text-lg font-medium capitalize text-dark underline ' href="mailto:jkob1994@gmail.com" >Contact</Link>
-                <Link className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-transparent hover:text-dark 
-                border-2 border-solid border-transparent hover:border-dark
+                <Link className='mr-4 text-lg font-medium capitalize text-dark underline  dark:text-light ' href="mailto:jkob1994@gmail.com" >Contact</Link>
+                <Link className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold 
+                hover:bg-transparent hover:text-dark border-2 border-solid border-transparent hover:border-dark
+                dark:bg-light dark:text-dark dark:hover:text-light dark:hover:border-light dark:hover:bg-transparent
                 " href="" >Suscribe</Link>
               </div>
           </div>

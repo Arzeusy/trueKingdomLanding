@@ -4,8 +4,8 @@ import CustomLink from "./customLink";
 
 const Footer =() =>{
     return (
-        <footer className="w-full bg-light  font-medium text-lg fixed bottom-0 ">
-            <div className="py-8 px-3 flex items-center justify-center ">
+        <footer className="w-full bg-light  font-medium text-lg fixed bottom-0 dark:bg-black  ">
+            <div className="py-8 px-3 flex items-center justify-center dark:text-light ">
                 <div>
                     <Link href="https://github.com/Arzeusy/alejandria" target="_blanck">Github</Link>
                 </div>
@@ -13,7 +13,7 @@ const Footer =() =>{
                 <div className="flex items-center">
                     {/* <span>&nbsp; &nbsp; </span> */}
                     <span>Made with</span>
-                    <span className="text-primary text-2xl px-1"> &#9825;</span>
+                    <span className="text-primary text-2xl px-1 "> &#9825;</span>
                     by&nbsp; 
                     <CustomLink href="https://twitter.com/arzeus_y" title="Arzeusy" target="_blank" />
                 </div>

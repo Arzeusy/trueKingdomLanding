@@ -16,13 +16,13 @@ export default function RootLayout({
   children: React.ReactNode
   }) {
   return (
-    <html lang="en">
+    <html lang="en" className="dark">
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </head>
       <body className={inter.className} >
-        <div className='background_main bg-light'>
+        <div className='background_main bg-light dark:bg-dark'>
           <div className='background_content'></div>
         </div>
         <main className="w-full min-h-screen text-zinc-700">

@@ -38,11 +38,13 @@ const SocialLinks = () => {
           
             <button 
                 onClick={ ()=>{setMode(mode ==="light"? "dark":"light");}}
-                className=" flex items-center justify-center rounded-full p-1 w-9 "
+                className={` flex items-center justify-center rounded-full p-1 w-9 border 
+                ${mode === "light" ? "bg-dark text-light": " bg-light text-dark"}
+                `}
             >
                 {
-                    mode === "light" ? <SunIcon className={"fill-dark"} />
-                    : <MoonIcon className={"fill-dark"} />
+                    mode === "light" ? <SunIcon className={" fill-light"} style={{ filter: 'invert(100%)' }} />
+                    : <MoonIcon className={" fill-dark "} />
                 }
             </button>
         </>
