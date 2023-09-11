@@ -29,7 +29,10 @@ const me = () => {
                     </div>
                     <div className=" col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-gray-100 p-8 dark:border-light/75 dark:bg-dark/90">
                         <div className=" absolute top-0 -right-3 z-[-1] w-[102%] h-[102%] rounded-2xl bg-dark dark:bg-light/75 " />
-                        <Image src={ProfilePic} alt="Arzeusy" className=" w-full h-auto rounded-lg "/>
+                        <Image src={ProfilePic} alt="Arzeusy" className=" w-full h-auto rounded-lg "
+                        priority={true}
+                        sizes="(max-width: 768px) 100vw, (max-width: 1200px 50vw, 50vw)"
+                        />
                     </div>
                     <div className=" col-span-2 flex flex-col items-center justify-between">
                         <div className="flex flex-col items-end justify-center">

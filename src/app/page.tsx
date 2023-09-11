@@ -34,7 +34,10 @@ export default function Home() {
               </div>
           </div>
           <div className='w-2/5'>
-            <Image src={appPic} alt='Alejandria-app' className='w-2/3 mx-auto' priority={true}/>
+            <Image src={appPic} alt='Alejandria-app' className='w-2/3 mx-auto' 
+            priority={true}
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px 50vw, 33vw)"
+            />
           </div>
         </div>
       </div>

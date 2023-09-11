@@ -22,7 +22,7 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" />
       </head>
       <body className={inter.className} >
-        <div className='background_main bg-light dark:bg-dark'>
+        <div className='background_main bg-light after:invert dark:bg-dark dark:after:invert-0 '>
           <div className='background_content'></div>
         </div>
         <main className="w-full min-h-screen text-zinc-700">

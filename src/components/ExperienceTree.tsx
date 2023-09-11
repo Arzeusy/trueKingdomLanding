@@ -7,7 +7,7 @@ const Detail = ({position, company, companyLink, time, address, work}:any) => {
     const refDetail = useRef(null)
 
     return (
-        <li ref={refDetail}  className="my-8 firs:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between">
+        <li ref={refDetail}  className="my-8 firs:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between ">
             <LiIcon reference={refDetail} />
             <motion.div
                 initial={{y:50}}
@@ -40,7 +40,8 @@ const ExperienceTree = () =>{
     const ref = useRef(null)
     const {scrollYProgress} = useScroll({
         target: ref,
-        offset: ["start end", "start start"]
+        offset: ["start end", "start start"],
+        layoutEffect: false
     });
 
     return (
