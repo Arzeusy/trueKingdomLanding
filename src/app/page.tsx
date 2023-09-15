@@ -11,12 +11,13 @@ export default function Home() {
   return (
     <>
     <div className="flex  text-dark w-full min-h-full h-full dark:text-light ">
-      <div className='pt-0'>
-        <div className='flex items-center justify-center w-full '>
-          <div className='w-3/5 flex flex-col items-center self-center'>
+      <div className='py-4 sm:py-8'>
+        <div className='flex items-center justify-center w-full lg:block'>
+          <div className='w-3/5 flex flex-col items-center self-center lg:w-full lg:p-12 md:p-8 sm:p-4 '>
               <AnimatedText 
                 text="Discover innovative learning with cultural immersion and flexible access" 
-                className='!text-5xl !text-right dark:text-light'  
+                className='!text-5xl !text-right dark:text-light 
+                xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl '  
               />
               <br />
               <br />
@@ -33,10 +34,10 @@ export default function Home() {
                 " href="" >Suscribe</Link>
               </div>
           </div>
-          <div className='w-2/5'>
-            <Image src={appPic} alt='Alejandria-app' className='w-2/3 mx-auto' 
+          <div className='w-2/5 lg:w-full  '>
+            <Image src={appPic} alt='Alejandria-app' className='w-2/3 mx-auto ' 
             priority={true}
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px 50vw, 33vw)"
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             />
           </div>
         </div>

@@ -29,6 +29,9 @@ module.exports = {
       "md": {max:"767px"},
       "sm": {max:"639px"},
       "xs": {max:"479px"},
+      "xli": {min:"1279px"},
+      "lgi": {min:"1023px"},
+
     }
   },
   plugins: [],

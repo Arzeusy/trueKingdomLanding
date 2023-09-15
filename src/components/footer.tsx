@@ -4,7 +4,7 @@ import CustomLink from "./customLink";
 
 const Footer =() =>{
     return (
-        <footer className="w-full bg-light  font-medium text-lg fixed bottom-0 dark:bg-black  ">
+        <footer className="w-full bg-light  font-medium text-lg lgi:fixed lgi:bottom-0 dark:bg-black  ">
             <div className="py-8 px-3 flex items-center justify-center dark:text-light ">
                 <div>
                     <Link href="https://github.com/Arzeusy/alejandria" target="_blanck">Github</Link>
