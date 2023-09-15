@@ -15,7 +15,7 @@ const SocialLinks = () => {
                     href="/" target={"_blanck"}
                 whileHover={{ y: -2 }}
                 whileTap={{ scale:0.9}}
-                    className="w-6 mr-3"
+                    className="w-6 mr-3 sm:mx-1"
             >
                 <TwitterIcon  />
             </motion.a>
@@ -23,7 +23,7 @@ const SocialLinks = () => {
                     href="/" target={"_blanck"}
                 whileHover={{ y: -2 }}
                 whileTap={{ scale:0.9}}
-                    className="w-6 mr-3"
+                    className="w-6 mr-3 sm:mx-1" 
             >
                 <GithubIcon></GithubIcon>
             </motion.a>
@@ -31,7 +31,7 @@ const SocialLinks = () => {
                     href="/" target={"_blanck"}
                 whileHover={{ y: -2 }}
                 whileTap={{ scale:0.9}}
-                    className="w-6 mr-3"
+                    className="w-6 mr-3 sm:mx-1"
             >
                 <LinkedInIcon></LinkedInIcon>
             </motion.a>
