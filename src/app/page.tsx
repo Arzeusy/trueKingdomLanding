@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-no-undef */
 import Image from 'next/image'
 import React from 'react'
-import appPic from "../../public/images/Wood-Hand.svg"
+import appPic from "../../public/images/Wood-Hand 1.png"
 import AnimatedText from '@/components/AnimatedText'
 import Link from 'next/link'
 import Footer from "../components/footer"
@@ -10,7 +10,7 @@ import Footer from "../components/footer"
 export default function Home() {
   return (
     <>
-    <div className="flex  text-dark w-full min-h-full h-full dark:text-light ">
+    <div className="flex text-dark w-full dark:text-light ">
       <div className='py-4 sm:py-8'>
         <div className='flex items-center justify-center w-full lg:block'>
           <div className='w-3/5 flex flex-col items-center self-center lg:w-full lg:p-12 md:p-8 sm:p-4 '>
@@ -22,7 +22,7 @@ export default function Home() {
               <br />
               <br />
               <div className="w-full flex justify-end">
-                <p className='my-4 px-4 text-base font-medium text-justify '>
+                <p className='my-4 px-4 text-base font-medium text-right lg:text-justify'>
                   Alexandria is an open-source mobile application that will assist in managing learning, personalization, and sharing your drafts.
                 </p>
               </div>
