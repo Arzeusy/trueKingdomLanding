@@ -1,7 +1,7 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
 import "@testing-library/jest-dom";
-import Projects from "@/app/projects/page";
+import Me from "@/app/me/page";
 import 'intersection-observer';
 
 
@@ -28,10 +28,10 @@ describe("My information page", ()=>{
     //     expect(buttonElement).toBeDisabled();
     // });
 
-    it("Should have a tag with classname of blue", ()=>{
-        render(<Projects/>);
+    it("Should have a text heading", ()=>{
+        render(<Me />);
         const pElement = screen.getByTestId("SubTitle");
-        expect(pElement).toHaveTextContent("Biography")
+        expect(pElement).toHaveTextContent("Biography");
 
     });
 });
