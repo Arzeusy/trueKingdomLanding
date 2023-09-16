@@ -22,9 +22,24 @@ body {
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  ) rgb(var(--background-start-rgb));
+
+  scrollbar-color: #848484 #e8e8e8 !important;
+  scrollbar-width: thin !important;
 }
+ 
+body::-webkit-scrollbar {
+  width: 7px !important;
+}
+
+body::-webkit-scrollbar-track {
+  background: #e8e8e8;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #848484;
+  border-radius: 20px;
+} 
 
 .background_main {
   width: 100vw; 
@@ -38,7 +53,7 @@ body {
 }
 
 .background_main::before{
-  background: radial-gradient(circle,rgba(2,0,36,0) 0,#fafafa 100%);
+  /* background: radial-gradient(circle,rgba(2,0,36,0) 0,#fafafa 100%); */
   position: absolute;
   content: "";
   z-index: 2;
@@ -55,8 +70,8 @@ body {
     width: 100%;
     height: 100%;
     top: 0;
-    opacity: .4;
-    filter: invert(1);
+    opacity: .6;
+    /* filter: invert(1); */
 }
 
 .background_content{
@@ -71,4 +86,13 @@ body {
     filter: blur(100px) saturate(150%);
     top: 80px;
     opacity: .15;
+}
+
+@layer components {
+  .shadow-3xl{
+    --tw-shadow: 0 -5px 15px 2px #df5d77b4;
+    --tw-shadow-colored: 0 15px 15px 1px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);
+  }
+  
 }
