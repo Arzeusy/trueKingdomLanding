@@ -55,8 +55,8 @@ const ExperienceTree = () =>{
             <div ref={ref} className="w-[75%] mx-auto relative lg:w-[90%] md:w-full ">
                 <motion.div 
                     style={{scaleY: scrollYProgress}}
-                    className="absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-primaryDark dark:shadow-3xl 
-                    md:w-[2px] md:left-[30px] xs:left-[20px]
+                    className="absolute left-9 top-0 w-[4px] h-full bg-dark origin-top 
+                    dark:bg-primaryDark dark:shadow-3xl md:w-[2px] md:left-[30px] xs:left-[20px]
                     "
                 ></motion.div>
                 <ul className="w-full flex flex-col items-start justify-between xs:ml-2  ">

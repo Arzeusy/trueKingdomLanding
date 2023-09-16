@@ -87,3 +87,12 @@ body::-webkit-scrollbar-thumb {
     top: 80px;
     opacity: .15;
 }
+
+@layer components {
+  .shadow-3xl{
+    --tw-shadow: 0 -5px 15px 2px #df5d77b4;
+    --tw-shadow-colored: 0 15px 15px 1px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);
+  }
+  
+}
