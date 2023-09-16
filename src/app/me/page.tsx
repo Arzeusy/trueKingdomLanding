@@ -32,6 +32,8 @@ const me = () => {
                             <div className=" absolute top-0 -right-3 z-[-1] w-[102%] h-[102%] rounded-2xl bg-dark dark:bg-light/75 " />
                             <Image src={ProfilePic} alt="Arzeusy" className=" w-full h-auto rounded-lg "
                                 priority={true}
+                                placeholder="blur"
+                                blurDataURL={"../../../public/images/profile/me.jpeg"}
                                 sizes="(max-width: 768px) 100vw, (max-width: 1200px 50vw, 50vw)"
                                 />
                         </div>

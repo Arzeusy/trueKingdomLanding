@@ -13,7 +13,14 @@ module.exports = {
         'gradient-conic':
         'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
         'CircularLight': 'repeating-radial-gradient(rgba(0,0,0,0.6) 2px, rgba(0,0,0,0.0) 5px, rgba(0,0,0,0.0) 100px)',
-        'CircularDark': 'repeating-radial-gradient(rgb(139 139 139) 2px, rgba(0,0,0,0.0) 5px, rgba(0,0,0,0.0) 100px)'
+        'CircularDark': 'repeating-radial-gradient(rgb(139 139 139) 2px, rgba(0,0,0,0.0) 5px, rgba(0,0,0,0.0) 100px)',
+        'CircularLightLg': 'repeating-radial-gradient(rgba(0,0,0,0.6) 2px, rgba(0,0,0,0.0) 5px, rgba(0,0,0,0.0) 80px)',
+        'CircularDarkLg': 'repeating-radial-gradient(rgb(139 139 139) 2px, rgba(0,0,0,0.0) 5px, rgba(0,0,0,0.0) 80px)',
+        'CircularLightMd': 'repeating-radial-gradient(rgba(0,0,0,0.6) 2px, rgba(0,0,0,0.0) 5px, rgba(0,0,0,0.0) 60px)',
+        'CircularDarkMd': 'repeating-radial-gradient(rgb(139 139 139) 2px, rgba(0,0,0,0.0) 5px, rgba(0,0,0,0.0) 60px)',
+        'CircularLightSm': 'repeating-radial-gradient(rgba(0,0,0,0.6) 2px, rgba(0,0,0,0.0) 5px, rgba(0,0,0,0.0) 40px)',
+        'CircularDarkSm': 'repeating-radial-gradient(rgb(139 139 139) 2px, rgba(0,0,0,0.0) 5px, rgba(0,0,0,0.0) 40px)'
+
       },
       colors: {
         dark: "#1b1b1b",

@@ -37,6 +37,8 @@ export default function Home() {
           <div className='w-2/5 lg:w-full  '>
             <Image src={appPic} alt='Alejandria-app' className='w-2/3 mx-auto ' 
             priority={true}
+            placeholder="blur"
+            blurDataURL={"../../public/images/Wood-Hand 1.png"}
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             />
           </div>
