@@ -12,7 +12,7 @@ const SocialLinks = () => {
     return (
         <>
             <motion.a
-                    href="/" target={"_blanck"}
+                    href="https://twitter.com/arzeus_y" target={"_blanck"}
                 whileHover={{ y: -2 }}
                 whileTap={{ scale:0.9}}
                     className="w-6 mr-3 sm:mx-1"
@@ -20,7 +20,7 @@ const SocialLinks = () => {
                 <TwitterIcon  />
             </motion.a>
             <motion.a
-                    href="/" target={"_blanck"}
+                    href="https://github.com/Arzeusy" target={"_blanck"}
                 whileHover={{ y: -2 }}
                 whileTap={{ scale:0.9}}
                     className="w-6 mr-3 sm:mx-1" 
@@ -28,7 +28,7 @@ const SocialLinks = () => {
                 <GithubIcon></GithubIcon>
             </motion.a>
             <motion.a
-                    href="/" target={"_blanck"}
+                    href="https://www.linkedin.com/in/yeicob-haroldo-calderon-vanegas-a8255b1a6/" target={"_blanck"}
                 whileHover={{ y: -2 }}
                 whileTap={{ scale:0.9}}
                     className="w-6 mr-3 sm:mx-1"
