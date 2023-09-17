@@ -41,28 +41,28 @@ const me = () => {
                     <div className="col-span-2 flex flex-col items-center justify-between xl:col-span-8 xl:flex-row xl:items-center lg:order-3">
                         <div className="flex flex-col items-end justify-center xl:items-center">
                             <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl"> 
-                                <AnimatedNumbers value={50}/>+
+                                <AnimatedNumbers value={20}/>+
                             </span>
                             <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
-                                Satisfied Clients
+                                Recived Certifications 
                             </h2>
                         </div>
 
                         <div className="flex flex-col items-end justify-center xl:items-center">
                             <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl"> 
-                                <AnimatedNumbers value={40}/>+
+                                <AnimatedNumbers value={12}/>+
                             </span>
                             <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
-                                Projects Completed
+                                Experienced Frameworks
                             </h2>
                         </div>
 
                         <div className="flex flex-col items-end justify-center xl:items-center">
-                            <span className="inline-block text-7xl font-bold text-center md:text-6xl sm:text-5xl xs:text-4xl">
+                            <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
                                 <AnimatedNumbers value={4}/>+
                             </span>
                             <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
-                                Years or experience
+                                Years of experience
                             </h2>
                         </div>
                     </div>
@@ -70,7 +70,7 @@ const me = () => {
 
                 <Skills />
             </div>
-            <div >
+            <div className="z-0 h-full p-32 xl:p-24 lg:p-16 md:p-12 sm:p-8 xs:p-2 pt-16" >
                 <ExperienceTree />
             </div>
         </>
