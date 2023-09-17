@@ -1,6 +1,7 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
 import NavBar from "../components/NavBar"
+import Footer from "../components/footer"
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
@@ -28,6 +29,7 @@ export default function RootLayout({
         <main className="w-full min-h-screen text-zinc-700">
           <NavBar></NavBar>
           {children}
+          <Footer/>
         </main>
         
       </body>
