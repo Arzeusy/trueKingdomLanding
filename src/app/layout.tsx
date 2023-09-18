@@ -29,7 +29,6 @@ export default function RootLayout({
         <main className="w-full min-h-screen text-zinc-700">
           <NavBar></NavBar>
           {children}
-          <Footer/>
         </main>
         
       </body>
